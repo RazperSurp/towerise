@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOWERISE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1> ! TOWERISE ! </h1>
+    </header>
+    <main>
+        <form id="game-settings">
+            <div class="form-group">
+                <label> Ширина </label>
+                <input type="number" min="10" name="width" value="10" required>
+            </div>
+            <div class="form-group">
+                <label> Высота </label>
+                <input type="number" min="10" name="height" value="10" required>
+            </div>
+            <div class="form-group">
+                <label> Сложность </label>
+                <div class="button-group">
+                    <button class="active" data-value="0"> Низкая </button>
+                    <button data-value="1"> Средняя </button>
+                    <button data-value="2"> Высокая </button>
+                    <button data-value="3"> Кошмар </button>
+                    <div class="hidden-radio">
+                        <input type="radio" name="difficulty" value="0" checked>
+                        <input type="radio" name="difficulty" value="1">
+                        <input type="radio" name="difficulty" value="2">
+                        <input type="radio" name="difficulty" value="3">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="reset"> Случайно </button>
+                <button type="submit"> Применить! </button>
+            </div>
+        </form>
+
+        <table id="game-field">
+
+        </table>
+    </main>
+</body>
+<script type="module" src="main.mjs"> </script>
+</html>
