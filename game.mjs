@@ -261,6 +261,8 @@ export default class Game {
     }
 
     _renderField() {
+        this._CONTAINERS.FIELD.innerHTML = '';
+
         for (let y = 0; y < this._HEIGHT; y++) {
             const ROW = document.createElement('tr');
             ROW.dataset.addr = y;
