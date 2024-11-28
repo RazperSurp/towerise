@@ -1,0 +1,27 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_14_31)">
+<rect width="20" height="20" fill="white"/>
+<rect width="20" height="20" fill="#D9D9D9"/>
+<path d="M19.5 0.5H0.5V19.5H19.5V0.5Z" fill="#57A83C" stroke="#57A83C"/>
+<path d="M17 14.5H3V14V13H1V9.5H3V8.5H4V6.5H6V5.5H7.5H11V6.5H12.5H14V5H16V7V9.5H18V11.5H19V14.5H17Z" fill="#438C2B" stroke="#2D5F1C"/>
+<path d="M11 8V8.5V9" stroke="#261B77"/>
+<path d="M13 9V9.5V10" stroke="#261B77"/>
+<path d="M10 10V10.5V11" stroke="#261B77"/>
+<path d="M16 11V11.5V12" stroke="#261B77"/>
+<path d="M14 12V12.5V13" stroke="#261B77"/>
+<path d="M15 7V7.5V8" stroke="#261B77"/>
+<path d="M9 6V6.5V7" stroke="#261B77"/>
+<path d="M8 8V8.5V9" stroke="#261B77"/>
+<path d="M6 7V7.5V8" stroke="#261B77"/>
+<path d="M6 10V10.5V11" stroke="#261B77"/>
+<path d="M8 12V12.5V13" stroke="#261B77"/>
+<path d="M3 10V10.5V11" stroke="#261B77"/>
+<path d="M12 12V12.5V13" stroke="#261B77"/>
+<path d="M5 12V12.5V13" stroke="#261B77"/>
+</g>
+<defs>
+<clipPath id="clip0_14_31">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,17 +1,23 @@
-td.grass-1 {
-    background-image: url(./assets/grass-1.svg) ;
+td.grass-6 {
+    background-image: url(./assets/grass-6.svg) ;
 }
-td.grass-2 {
-    background-image: url(./assets/grass-2.svg) ;
+td.grass-7 {
+    background-image: url(./assets/grass-7.svg) ;
 }
-td.grass-3 {
-    background-image: url(./assets/grass-3.svg) ;
+td.grass-8 {
+    background-image: url(./assets/grass-8.svg) ;
 }
-td.grass-4 {
-    background-image: url(./assets/grass-4.svg) ;
+td.grass-9 {
+    background-image: url(./assets/grass-9.svg) ;
 }
-td.grass-5 {
-    background-image: url(./assets/grass-5.svg) ;
+td.grass-20 {
+    background-image: url(./assets/grass-10.svg) ;
+}
+td.grass-21 {
+    background-image: url(./assets/grass-11.svg) ;
+}
+td.grass-22 {
+    background-image: url(./assets/grass-12.svg) ;
 }
 td {
     width: 50px;
