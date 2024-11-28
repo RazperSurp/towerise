@@ -271,7 +271,7 @@ export default class Game {
                 const CELL = document.createElement('td');
                 CELL.dataset.addr = x;
 
-                const ASSET_INDEX = Math.ceil(Math.random() * 40);
+                const ASSET_INDEX = Math.ceil(Math.random() * 41);
                 let asset = '';
 
                 switch (ASSET_INDEX) {
@@ -327,7 +327,9 @@ export default class Game {
                     case 22:
                         asset = `url(./assets/grass-12.svg)`;
                         break;
-
+                    case 41:
+                        asset = `url(./assets/grass-13.svg)`;
+                        break;
                     default:
                         asset = `url(./assets/grass-${ASSET_INDEX}.svg)`;
                         break;
