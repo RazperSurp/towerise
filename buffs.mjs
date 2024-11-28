@@ -20,20 +20,10 @@ class Buff{
         },
     }   
     BUFFS = {
-        FIRE_RATE: {
-            FIRE_RATE: 0.2,
-        },
-        DAMAGE: {
-            DAMAGE: 0.2,
-        },
-        RANGE: {
-            RANGE: 1,
-        },
-        MULTISHOT: {            
-            PROJECTILES: 1,
-        },
-        SPLASH: {
-            SPLASH: 1,
-        },
+        FIRE_RATE: 0.2,
+        DAMAGE: 0.2,
+        RANGE: 1,
+        MULTISHoT: 1,
+        SPLASH: 1,
     }
 }
