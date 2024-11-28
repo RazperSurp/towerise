@@ -1,0 +1,21 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_15_4)">
+<rect width="20" height="20" fill="#D9D9D9"/>
+<path d="M19.5 0.5H0.5V19.5H19.5V0.5Z" fill="#57A83C" stroke="#57A83C"/>
+<path d="M17 14H3V13.5V12.5H1V9H3V8H4V6H6V5H7.5H11V6H12.5H14V4.5H16V6.5V9H18V11H19V14H17Z" fill="#76E451" stroke="#2D5F1C"/>
+<path d="M13 8V8.5V7.5" stroke="#8A2E15"/>
+<path d="M8 9.5V10V9" stroke="#8A2E15"/>
+<path d="M7 12.5V13V12" stroke="#8A2E15"/>
+<path d="M9 6.5V7V6" stroke="#8A2E15"/>
+<path d="M13 11.5V12V11" stroke="#8A2E15"/>
+<path d="M16 12.5V13V12" stroke="#8A2E15"/>
+<path d="M4 10.5V11V10" stroke="#8A2E15"/>
+<path d="M13 12V12.5M13 10.5V11M14 11.5H13.5M12.5 11.5H12M15.5 12.5H15M17 12.5H16.5M16 11.5V12M16 13V13.5M13 7V7.5M13 8.5V9M14 8H13.5M12.5 8H12M7 11.5V12M7 13V13.5M6.5 12.5H6M8 12.5H7.5M8 8.5V9M8 10V10.5M9 9.5H8.5M7.5 9.5H7M9 5.5V6M9 7V7.5M10 6.5H9.5M8.5 6.5H8M4 9.5V10M4 11V11.5M3.5 10.5H3M5 10.5H4.5" stroke="#3F9224"/>
+<path d="M10.5 9.5V10M15.5 10.5V11M6 7.5V8M4.5 12V12.5M9.5 12V12.5M15 7V7.5" stroke="#3F9224"/>
+</g>
+<defs>
+<clipPath id="clip0_15_4">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
