@@ -42,9 +42,9 @@ class Tower{
             PROFIT: 200, 
         },
     }
-    constructor(towerName, attackSpeed, range, damage, status, multishot, splash, asset, cost, profit, towerLimit){
-        this.TOWERNAME = towerName
-        this.ATTACKSPEED = attackSpeed
+    constructor(towerName, fireRate, range, damage, status, multishot, splash, asset, cost, profit, towerLimit){
+        this.TOWER_NAME = towerName
+        this.FIRE_RATE = fireRate
         this.RANGE = range
         this.DAMAGE = damage
         this.STATUS = status

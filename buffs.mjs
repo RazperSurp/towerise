@@ -1,22 +1,20 @@
 class Buff{
     DEBUFFS = {
         FIRE: {
-            DAMAGE: 999,
-            TIME: 2,
+            DAMAGE: 30,
+            TIME: 2000,
         },
         SLOWDOWN: {
-            DAMAGE: 0,
-            REDUCING_MOVEMENT_SPEED: 0.4,
-            TIME: 5,
+                        REDUCING_MOVEMENT_SPEED: 0.4,
+            TIME: 5000,
         },
         STUN: {
-            DAMAGE: 0,
-            STUN_TIME: 1,
-            TIME: 3,
+            STUN: 1,
+            TIME: 2000,
         },
         POISON: {
             DAMAGE: 1,
-            TIME: 40,
+            TIME: 40000,
         },
     }   
     BUFFS = {
