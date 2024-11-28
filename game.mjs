@@ -268,6 +268,10 @@ export default class Game {
             for (let x = 0; x < this._WIDTH; x++) {
                 const CELL = document.createElement('td');
                 CELL.dataset.addr = x;
+
+                const ASSET_INDEX = Math.ceil(Math.random() * 5);
+                CELL.classList.add(`grass-${ASSET_INDEX}`);
+
                 ROW.appendChild(CELL);
 
                 this._CELLS.push({
