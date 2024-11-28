@@ -20,11 +20,11 @@ class Buff{
         },
     }   
     BUFF = {
-        SPEEDATTACK: {
-            SPA_BOOST: 0.2,
+        FIRE_RATE: {
+            FIRE_RATE_BOOST: 0.2,
         },
-        DMG: {
-            DMG_BOOST: 0.2,
+        DAMAGE: {
+            DAMAGE_BOOST: 0.2,
         },
         RANGE: {
             RANGE_BOOST: 1,
