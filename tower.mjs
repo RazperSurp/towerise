@@ -1,7 +1,8 @@
 class Tower{
-    constructor(towerName, attackSpeed, damage, status, multishot, splash, asset, cost){
+    constructor(towerName, attackSpeed, range, damage, status, multishot, splash, asset, cost){
         this.TOWERNAME = towerName
         this.ATTACKSPEED = attackSpeed
+        this.RANGE = range
         this.DAMAGE = damage
         this.STATUS = status
         this.MULTISHOT = multishot
