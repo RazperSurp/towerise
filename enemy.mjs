@@ -1,5 +1,4 @@
 class Enemy{
-
     _STATUS_RESISTANCE = {
         FIRE_RESIST: {
             RESITS_BASE: 0.1,

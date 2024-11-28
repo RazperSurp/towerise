@@ -1,5 +1,5 @@
 class Buff{
-    BUFF = {
+    DEBUFFS = {
         FIRE: {
             DAMAGE: 999,
             TIME: 2,
@@ -17,6 +17,13 @@ class Buff{
         POISON: {
             DAMAGE: 1,
             TIME: 40,
-        }
+        },
     }   
+    BUFFS = {
+        FIRE_RATE: 0.2,
+        DAMAGE: 0.2,
+        RANGE: 1,
+        MULTISHoT: 1,
+        SPLASH: 1,
+    }
 }
