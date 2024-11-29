@@ -1,7 +1,7 @@
 class Tower{
     TOWER = {
         VIPER: {
-            TOWERNAME:'Viper',
+            TOWERNAME:'Вайпер',
             RANGE: 1,
             FIRE_RATE: 1000,
             STATUS: 'Poison',
@@ -11,18 +11,19 @@ class Tower{
             TYPE:'Attack',
             LVLUP:0.2,
         },
-        STUNLY: {
-            TOWERNAME:'Stunly',
+        GRIULS: {
+            TOWERNAME:'Каменьщик Гриулс',
             RANGE: 3,
             FIRE_RATE: 12000,
             STATUS: 'Stun',
+            DAMAGE: 5,
             COST:200,
             LIMIT: 5,
             TYPE: 'Support',
             LVLUP:0.2,
         },
-        RENGLY: {
-            TOWERNAME: 'Rengly',
+        OZAVA: {
+            TOWERNAME: 'Озава Меткая',
             RANGE: 4,
             COST: 300,
             LIMIT: 3,
@@ -30,8 +31,8 @@ class Tower{
             TYPE: 'Support',
             LVLUP:0.2,
         },
-        DAMLY: {
-            TOWERNAME: 'Damly',
+        TROZOCH: {
+            TOWERNAME: 'Командир Трозоч',
             RANGE: 3,
             COST: 450,
             LIMIT: 2, 
@@ -39,8 +40,8 @@ class Tower{
             TYPE: 'Support',
             LVLUP:0.2,
         },
-        SPEEDY: {
-            TOWERNAME: 'Speedy',
+        STRENOSAM: {
+            TOWERNAME: 'Стремительный Стреносам',
             RANGE: 4,
             COST: 300,
             LIMIT: 3,
@@ -48,8 +49,8 @@ class Tower{
             TYPE: 'Support',
             LVLUP:0.2,
         },
-        MULTIER: {
-            TOWERNAME: 'Multier',
+         KIZIKET: {
+            TOWERNAME: 'Оруженосец Кизикет',
             RANGE: 2,
             COST: 600,
             LIMIT: 1,
@@ -57,8 +58,8 @@ class Tower{
             TYPE: 'Support', 
             LVLUP:0.2,
         },
-        SPLASHER: {
-            TOWERNAME: 'Splasher',
+        TECHIS: {
+            TOWERNAME: 'Подрывник Течис',
             RANGE: 2,
             COST: 600,
             LIMIT: 1, 
@@ -66,8 +67,8 @@ class Tower{
             TYPE: 'Support',
             LVLUP:0.2,
         },
-        FARMER: {
-            TOWERNAME: 'Farmer',
+        SPEEDWAGON: {
+            TOWERNAME: 'Спидвагон',
             COST: 800,
             LIMIT: 1,
             TYPE: 'Support',
