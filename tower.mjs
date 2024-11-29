@@ -1,5 +1,13 @@
 class Tower{
     TOWER = {
+        STUNLY: {
+            TOWERNAME:Stunly,
+            RANGE: 3,
+            FIRE_RATE: 2000,
+            STATUS: STUN,
+            COST:200,
+            LIMIT: 5,
+        },
         RENGLY: {
             TOWERNAME: Rengly,
             RANGE: 4,

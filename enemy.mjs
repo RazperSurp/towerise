@@ -1,24 +1,24 @@
 class Enemy{
     _STATUS_RESISTANCE = {
         FIRE_RESIST: {
-            RESITS_BASE: 0.1,
+            RESITS_BASE: 0.05,
             RESITS_INCREMENT_PER_WAVE:0.01,
-            RESITS_MAX: 0.8,
+            RESITS_MAX: 0.95,
         },
         STUN_RESIST: {
-            RESITS_BASE: 0.1,
+            RESITS_BASE: 0.05,
             RESITS_INCREMENT_PER_WAVE:0.01,
-            RESITS_MAX: 0.8,
+            RESITS_MAX: 0.95,
         },
         POISON_RESIST: {
-            RESITS_BASE: 0.1,
+            RESITS_BASE: 0.05,
             RESITS_INCREMENT_PER_WAVE:0.01,
-            RESITS_MAX: 0.8,
+            RESITS_MAX: 0.95,
         },
         SLOWDOWN_RESIST: {
-            RESITS_BASE: 0.1,
+            RESITS_BASE: 0.05,
             RESITS_INCREMENT_PER_WAVE:0.01,
-            RESITS_MAX: 0.8,
+            RESITS_MAX: 0.95,
         }
     }
 
