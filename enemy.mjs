@@ -19,7 +19,17 @@ class Enemy{
             RESITS_BASE: 0.05,
             RESITS_INCREMENT_PER_WAVE:0.01,
             RESITS_MAX: 0.95,
-        }
+        },
+        CURSED_RESIST: {
+            RESITS_BASE: 0.05,
+            RESITS_INCREMENT_PER_WAVE:0.01,
+            RESITS_MAX: 1,
+        },
+        FEAR_RESIST: {
+            RESITS_BASE: 0.05,
+            RESITS_INCREMENT_PER_WAVE:0.01,
+            RESITS_MAX: 1,
+        },
     }
 
     _ENEMIES_DICTIONARY = {

@@ -4,7 +4,7 @@ class Buff{
             DAMAGE: 30,
             TIME: 4000,
         },
-        SLOWDOWN: {
+        ICE: {
             REDUCING_MOVEMENT_SPEED: 0.6,
             TIME: 5000,
         },
@@ -15,6 +15,15 @@ class Buff{
         POISON: {
             DAMAGE: 3,
             TIME: 40000,
+        },
+        CURSE: {
+            DAMAGE:10,
+            REDUCING_MOVEMENT_SPEED: 0.3,
+            TIME:15000,
+        },
+        FEAR: {
+            REDUCING_MOVEMENT_SPEED: -1,
+            TIME: 2000,
         },
     }   
     BUFFS = {
