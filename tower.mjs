@@ -1,73 +1,81 @@
 class Tower{
     TOWER = {
         VIPER: {
-            TOWERNAME:Viper,
+            TOWERNAME:'Viper',
             RANGE: 1,
             FIRE_RATE: 1000,
-            STATUS: POISON,
+            STATUS: 'Poison',
             DAMAGE: 15,
             COST:125,
             LIMIT:6,
-            TYPE:ATTACK,
+            TYPE:'Attack',
+            LVLUP:0.2,
         },
         STUNLY: {
-            TOWERNAME:Stunly,
+            TOWERNAME:'Stunly',
             RANGE: 3,
             FIRE_RATE: 12000,
-            STATUS: STUN,
+            STATUS: 'Stun',
             COST:200,
             LIMIT: 5,
-            TYPE: SUPPORT,
+            TYPE: 'Support',
+            LVLUP:0.2,
         },
         RENGLY: {
-            TOWERNAME: Rengly,
+            TOWERNAME: 'Rengly',
             RANGE: 4,
             COST: 300,
             LIMIT: 3,
-            BUFF: RANGE,
-            TYPE: SUPPORT,
+            BUFF: 'Range',
+            TYPE: 'Support',
+            LVLUP:0.2,
         },
         DAMLY: {
-            TOWERNAME: Damly,
+            TOWERNAME: 'Damly',
             RANGE: 3,
             COST: 450,
             LIMIT: 2, 
-            BUFF: DAMAGE,
-            TYPE: SUPPORT,
+            BUFF: 'Damage',
+            TYPE: 'Support',
+            LVLUP:0.2,
         },
         SPEEDY: {
-            TOWERNAME: Speedy,
+            TOWERNAME: 'Speedy',
             RANGE: 4,
             COST: 300,
             LIMIT: 3,
-            BUFF: FIRE_RATE,
-            TYPE: SUPPORT,
+            BUFF: 'Fire Rate',
+            TYPE: 'Support',
+            LVLUP:0.2,
         },
         MULTIER: {
-            TOWERNAME: Multier,
+            TOWERNAME: 'Multier',
             RANGE: 2,
             COST: 600,
             LIMIT: 1,
-            BUFF: MULTISHOT,
-            TYPE: SUPPORT, 
+            BUFF: 'Multishot',
+            TYPE: 'Support', 
+            LVLUP:0.2,
         },
         SPLASHER: {
-            TOWERNAME: Splasher,
+            TOWERNAME: 'Splasher',
             RANGE: 2,
             COST: 600,
             LIMIT: 1, 
-            BUFF: SPLASH,
-            TYPE: SUPPORT,
+            BUFF: 'Splash',
+            TYPE: 'Support',
+            LVLUP:0.2,
         },
         FARMER: {
-            TOWERNAME: Farmer,
+            TOWERNAME: 'Farmer',
             COST: 800,
             LIMIT: 1,
-            TYPE: SUPPORT,
+            TYPE: 'Support',
             PROFIT: 400, 
+            LVLUP:0.2,
         },
     }
-    constructor(towerName, fireRate, range, damage, status, multishot, splash, asset, cost, profit, towerLimit, type,){
+    constructor(towerName, fireRate, range, damage, status, multishot, splash, asset, cost, profit, towerLimit, type,lvlUp){
         this.TOWER_NAME = towerName
         this.FIRE_RATE = fireRate
         this.RANGE = range
@@ -80,5 +88,6 @@ class Tower{
         this.PROFIT_PER_WAVE = profit
         this.LIMIT = towerLimit
         this.TYPE = type
+        this.LVLUP = lvlUp
     }
 }
