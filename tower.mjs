@@ -1,5 +1,15 @@
 class Tower{
     TOWER = {
+        DRURG:{
+            TOWERNAME:'Дрург Следопыт',
+            RANGE: 1,
+            FIRE_RATE: 1000,
+            DAMAGE: 30,
+            COST: 100,
+            LIMIT: 10,
+            TYPE:'Attack',
+            LVLUP: 0.2,
+        },
         VIPER: {
             TOWERNAME:'Вайпер',
             RANGE: 1,
@@ -13,13 +23,13 @@ class Tower{
         },
         GRIULS: {
             TOWERNAME:'Каменьщик Гриулс',
-            RANGE: 3,
+            RANGE: 1,
             FIRE_RATE: 12000,
             STATUS: 'Stun',
-            DAMAGE: 5,
-            COST:200,
+            DAMAGE: 50,
+            COST:400,
             LIMIT: 5,
-            TYPE: 'Support',
+            TYPE: 'Support, Attack',
             LVLUP:0.2,
         },
         OZAVA: {
