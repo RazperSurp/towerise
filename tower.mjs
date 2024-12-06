@@ -1,5 +1,16 @@
 class Tower{
     TOWER = {
+        VAKRIK:{
+            TOWERNAME:'Вакрик Ледяной',
+            RANGE: 1,
+            FIRE_RATE: 2000,
+            STATUS: 'Ice',
+            DAMAGE: 30,
+            COST: 200,
+            LIMIT: 4,
+            TYPE:'Attack',
+            LVLUP: 0.2,
+        },
         MUNDRIN:{
             TOWERNAME:'Мундрин Проклятый',
             RANGE: 1,
