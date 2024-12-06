@@ -1,5 +1,16 @@
 class Tower{
     TOWER = {
+        IGRIS:{
+            TOWERNAME:'Огненный Игрис',
+            RANGE: 1,
+            FIRE_RATE: 2000,
+            STATUS: 'Fire',
+            DAMAGE: 20,
+            COST: 325,
+            LIMIT: 4,
+            TYPE:'Attack',
+            LVLUP: 0.2,
+        },
         VAKRIK:{
             TOWERNAME:'Вакрик Ледяной',
             RANGE: 1,
@@ -8,7 +19,7 @@ class Tower{
             DAMAGE: 30,
             COST: 200,
             LIMIT: 4,
-            TYPE:'Attack',
+            TYPE:'Attack, Support',
             LVLUP: 0.2,
         },
         MUNDRIN:{
